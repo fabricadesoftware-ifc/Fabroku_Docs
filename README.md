@@ -21,8 +21,6 @@ npm run build    # gera .vitepress/dist
 
 ## Deploy
 
-O app `fabroku-docs` roda no próprio Fabroku (app3). O `static.json` faz o Fabroku compilar o site e servir só a pasta `.vitepress/dist` com Nginx. Para publicar uma mudança, faça merge na `main` e rode no app3:
+Automático: cada push na `main` dispara o workflow `.github/workflows/deploy.yml`, que envia o código para o app `fabroku-docs` no Fabroku (app3). O `static.json` faz o Fabroku compilar o site e servir só a pasta `.vitepress/dist` com Nginx.
 
-```bash
-dokku git:sync --build fabroku-docs https://github.com/fabricadesoftware-ifc/Fabroku_Docs.git main
-```
+Para publicar de novo sem mudar nada: aba **Actions → deploy → Run workflow**.
