@@ -1,0 +1,25 @@
+/* Cores do painel do Fabroku (primary #4357e0) e do logo (#1697F6). */
+:root {
+  --vp-c-brand-1: #4357e0;
+  --vp-c-brand-2: #3445b8;
+  --vp-c-brand-3: #4357e0;
+  --vp-c-brand-soft: rgba(67, 87, 224, 0.14);
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(120deg, #4357e0 20%, #1697f6);
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #4357e0 40%, #aeddff 60%);
+  --vp-home-hero-image-filter: blur(56px);
+}
+
+/* Barra de rolagem fina no menu lateral (a padrão do Windows é grossa). */
+.VPSidebar,
+.VPDocAsideOutline,
+.VPLocalSearchBox .results {
+  scrollbar-width: thin;
+  scrollbar-color: var(--vp-c-divider) transparent;
+}
+
+.dark {
+  --vp-c-brand-1: #8b9bff;
+  --vp-c-brand-2: #6f80f5;
+  --vp-c-brand-3: #4357e0;
+}

@@ -1,0 +1,4 @@
+{
+  "root": ".vitepress/dist/",
+  "routes": { "/**": "index.html" }
+}
