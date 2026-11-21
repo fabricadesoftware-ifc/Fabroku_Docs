@@ -57,6 +57,7 @@ export default defineConfig({
           { text: 'run (rotinas Django)', link: '/cli/run' },
           { text: 'db connect', link: '/cli/db' },
           { text: 'webhook', link: '/cli/webhook' },
+          { text: 'config (tema)', link: '/cli/config' },
         ],
       },
       {

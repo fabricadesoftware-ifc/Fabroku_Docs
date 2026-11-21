@@ -1,6 +1,6 @@
 # Instalação e login
 
-Precisa do Node.js 18 ou mais novo.
+Precisa do Node.js 20.9 ou mais novo.
 
 ```bash
 npm i -g fabroku
