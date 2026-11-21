@@ -35,7 +35,7 @@ static.json    pasta publicada e rotas da SPA
 ```txt [Backend Django]
 Procfile          processos web, worker e release
 requirements.txt  dependências Python
-.python-version   versão do Python
+.python-version   versão do Python, ex.: 3.13
 ```
 
 :::
