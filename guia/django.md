@@ -7,7 +7,7 @@ Na raiz do repositório:
 | Arquivo | Para quê |
 |---|---|
 | `requirements.txt` | Dependências Python |
-| `.python-version` | Versão do Python, ex.: `python-3.13.2` |
+| `.python-version` | Versão do Python, só o número: `3.13` (com `python-` na frente o deploy falha) |
 | `Procfile` | Comandos que o app roda (web, worker, release) |
 
 ::: code-group
@@ -21,7 +21,7 @@ whitenoise
 ```
 
 ```txt [.python-version]
-python-3.13.2
+3.13
 ```
 
 ```txt [Procfile]

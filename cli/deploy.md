@@ -30,7 +30,7 @@ Lista os seus apps.
 
 ```bash
 fabroku apps
-fabroku apps --project 42
+fabroku apps --project <id-do-projeto>
 ```
 
 | Status | Significado |
